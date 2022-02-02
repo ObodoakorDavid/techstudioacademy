@@ -265,7 +265,90 @@ section.div1 {
 
 /* section9 starts here */
 
-.section9{
+.section9 {
+  padding: 60px;
+}
+.h33 {
+  text-align: center;
+  border-bottom: 5px solid;
+  border-color: #007bff;
+  font-size: x-large;
+  padding: 3%;
+}
+.section9 p {
+  line-height: 25px;
+}
+.pzz {
+  text-align: center;
+}
+
+.smile img {
+  width: 94%;
+}
+.btn3 {
+  width: 40%;
+  height: 40px;
+  color: white;
+  border: 0px solid;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+/* section10 starts here  */
+
+.section10 {
+  background-color: #f8f9fa;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.section10 div {
+  background-color: #007bff;
+  padding: 20px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.interested p {
+  font-size: x-large;
+  color: white;
+}
+
+.btn4 {
+  width: 70%;
+  height: 40px;
+  background-color: white;
+  border: 0px solid;
+  color: #007bff;
+  border-radius: 5px;
+}
+
+/* section11 starts here */
+
+.section11 {
+  padding: 5%;
+}
+.section11 p {
+  line-height: 25px;
+}
+
+.ta {
+  text-align: center;
+  padding: 50px;
+}
+.ta h3 {
+  border-bottom: 5px solid #007bff;
+  padding: 20px;
+}
+.btn5 {
+  width: 60%;
+  height: 40px;
+  background-color: #007bff;
+  border: 0px solid;
+  color: white;
+  border-radius: 5px;
+}
+/* section12 starts here */
+
+.section12{
   
 }
 
@@ -284,6 +367,9 @@ section.div1 {
   }
   .reg {
     padding-left: 9%;
+  }
+  .btn4 {
+    width: 150px;
   }
 }
 
@@ -332,6 +418,19 @@ section.div1 {
     width: 200px;
     margin-left: 13%;
   }
+  .s11flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .s11flex div {
+    width: 270px;
+  }
+  .s11flex li {
+    line-height: 25px;
+  }
+  .btn5{
+    width: 500px;
+  }
 }
 
 @media (min-width: 801px) {
@@ -347,6 +446,16 @@ section.div1 {
   }
   .become {
     width: 90%;
+  }
+  .section10 div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn4 {
+    margin-top: 20px;
+  }
+  .s11flex div {
+    width: 350px;
   }
 }
 
@@ -406,6 +515,46 @@ section.div1 {
   .grid-items.p {
     grid-area: p;
   }
+
+  .section9 {
+    padding: 40px;
+  }
+
+  .smile {
+    display: flex;
+  }
+  .smile img {
+    width: 50%;
+    padding-right: 30px;
+  }
+  .smile div {
+    width: 600px;
+  }
+  .pzz {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 50px;
+  }
+  .btn2 {
+    width: 80%;
+  }
+  .section10 div {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 250px;
+  }
+  .interested p {
+    width: 300px;
+    font-size: x-large;
+  }
+  .btn4 {
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .s11flex div {
+    width: 400px;
+  }
 }
 
 @media (min-width: 1281px) {
@@ -434,6 +583,9 @@ section.div1 {
   .grid-items.h3 {
     width: 400px;
     margin: auto;
+  }
+  .s11flex div {
+    width: 550px;
   }
 }
 @media (min-width: 1660px) {
