@@ -72,7 +72,7 @@ header {
 .inp2 {
   width: 97%;
   height: 50px;
-  padding-left: 20px;
+  padding-left: 10px;
   margin-bottom: 20px;
 }
 .inp3 {
@@ -188,8 +188,7 @@ header {
 }
 .section5 img {
   width: 95%;
-  padding: 10px;
-  padding: 20px;
+  padding-left: 5%;
 }
 
 /* section6 starts here */
@@ -423,7 +422,7 @@ header {
   border-radius: 5px;
 }
 .footergrid2 button {
-  width: 100%;
+  width: 109%;
   height: 50px;
   border-radius: 5px;
   margin-top: 10px;
@@ -469,10 +468,10 @@ header {
 @media (min-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
   .leftside {
-    width: 100%;
+    width: 91%;
   }
   .rightside {
-    width: 100%;
+    width: 91%;
   }
   .become {
     width: 85%;
@@ -486,23 +485,26 @@ header {
   .tsa {
     margin-left: 30%;
   }
+  .footergrid2 button {
+    width: 106%;
+  }
 }
 
 @media (min-width: 650px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
   .inp1 {
-    width: 46%;
+    width: 45%;
   }
   .inp2 {
-    width: 46%;
+    width: 44%;
   }
 
   .leftside {
-    width: 100%;
+    width: 95%;
   }
   .rightside {
-    width: 100%;
+    width: 95%;
   }
   .become {
     width: 85%;
@@ -566,6 +568,9 @@ header {
     font-size: large;
     visibility: visible;
   }
+  .footergrid2 button {
+    width: 115%;
+  }
 }
 
 @media (min-width: 801px) {
@@ -575,10 +580,10 @@ header {
     padding: 1%;
   }
   .inp1 {
-    width: 44.5%;
+    width: 41%;
   }
   .inp2 {
-    width: 44.5%;
+    width: 40.5%;
   }
   .firstdiv {
     display: flex;
@@ -624,15 +629,18 @@ header {
     justify-content: space-between;
     padding-top: 25px;
   }
+  .footergrid2 button {
+    width: 112%;
+  }
 }
 
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
   .inp1 {
-    width: 44.5%;
+    width: 43%;
   }
   .inp2 {
-    width: 44.5%;
+    width: 43%;
   }
   .div4quote {
     display: flex;
@@ -722,21 +730,24 @@ header {
   .s11flex div {
     width: 400px;
   }
+  .footergrid2 button {
+    width: 109%;
+  }
 }
 
 @media (min-width: 1281px) {
   /* hi-res laptops and desktops */
   .inp1 {
-    width: 46%;
+    width: 44%;
   }
   .inp2 {
-    width: 46%;
+    width: 44%;
   }
   .rightside1 {
     width: 500px;
     position: absolute;
     left: 630px;
-    top: 4030px;
+    top: 4250px;
     padding: 3%;
   }
   .leftside1 img {
@@ -753,6 +764,9 @@ header {
   }
   .s11flex div {
     width: 550px;
+  }
+  .footergrid2 button {
+    width: 107%;
   }
 }
 @media (min-width: 1660px) {
@@ -780,5 +794,8 @@ header {
   .section7 {
     padding-right: 1%;
     padding-left: 2%;
+  }
+  .footergrid2 button {
+    width: 105%;
   }
 }
