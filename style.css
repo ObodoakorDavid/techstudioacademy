@@ -41,6 +41,8 @@ header {
 
 .section1 {
   background-image: url(./images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 5%;
   padding-bottom: 60px;
   padding-top: 60px;
@@ -394,10 +396,15 @@ header {
 /* Footer starts here  */
 
 .footergrid {
-  /* background: black; */
-  /* color: white; */
+  background: black;
+  color: white;
   padding: 10%;
   text-align: center;
+}
+.fab {
+  color: white;
+  width: 1000px;
+  padding-right: 5px;
 }
 .footergrid div {
   padding: 5px 0px;
@@ -439,6 +446,13 @@ header {
 .tsa p {
   font-size: large;
   margin-top: 10px;
+}
+
+.whatsapp {
+  position: sticky;
+  bottom: 5%;
+  left: 80%;
+  width: 100px;
 }
 
 /* MEDIA QUERIESSS */
@@ -571,6 +585,7 @@ header {
   .footergrid2 button {
     width: 115%;
   }
+  
 }
 
 @media (min-width: 801px) {
